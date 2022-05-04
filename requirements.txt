@@ -1,0 +1,12 @@
+Requires the following python packages/modules:
+
+    BeautifulSoup  -- for webscraping amazon product.
+        https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+    
+    os -- for getting API Keys (If you use env variables)
+    
+    requests -- to get data from web and push notifications from pushover.
+        https://pypi.org/project/requests/
+
+    Also requires use of pushover to send messages to your devices.
+        https://pushover.net
