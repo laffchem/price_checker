@@ -1,9 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
-import os
+from config import USER_KEY, APP_KEY
 
-USER_KEY = os.environ.get('user_key')
-APP_KEY = os.environ.get('app_key')
 URL = "https://www.amazon.com/Logitech-Advanced-Wireless-Illuminated-Keyboard/dp/B07S92QBCJ"
 
 #Headers to scrape Amazon.
